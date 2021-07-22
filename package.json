@@ -1,0 +1,33 @@
+{
+  "name": "erc721-controller",
+  "version": "1.0.0",
+  "description": "erc721-controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artem-brazhnikov/erc721-controller.git"
+  },
+  "keywords": [
+    "erc721"
+  ],
+  "author": "Artem B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artem-brazhnikov/erc721-controller/issues"
+  },
+  "homepage": "https://github.com/artem-brazhnikov/erc721-controller#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.2.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.1",
+    "hardhat": "^2.4.3",
+    "i": "^0.3.6",
+    "npm": "^7.20.0"
+  }
+}
