@@ -5,6 +5,8 @@ pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
+// Implement the contract with a singe tokenId containing a composite key in uin256 - protid+tokenid
+
 interface IERC721ERC20Protocols {
 
   event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
